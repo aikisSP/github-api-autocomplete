@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Github search profiles</title>
+</head>
+<body>
+    <main>
+        <h1 class="title">Github repositories searcher</h1>
+        <input type="text" class="input" autocomplete="off">
+        <div class="found-repositories">
+            <button class="found-repositories__add-button hidden"></button>
+            <button class="found-repositories__add-button hidden"></button>
+            <button class="found-repositories__add-button hidden"></button>
+            <button class="found-repositories__add-button hidden"></button>
+            <button class="found-repositories__add-button hidden"></button>
+        </div>
+        <div class="loading">
+            <img src="src/loading.gif" alt="loading" class="loading__image hidden" width="60">
+        </div>
+        <div class="saved-repositories">
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
